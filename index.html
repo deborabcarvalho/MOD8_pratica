@@ -14,36 +14,34 @@
     <div class="container">
         <header>
             <img src="./images/logo.png" alt="capelo e diploma">
-            <h1>Calculadora de médias</h1>
+            <h1>Agenda Telefônica</h1>
         </header>
-        <form id="form-atividade">
-            <input type="text" id="nome-atividade" required placeholder="Nome da Atividade" />
-            <input type="number" id="nota-atividade" required placeholder="Nota da Atividade" min="0" max="10" />
+        <form id="form-agenda">
+            <input type="text" id="nome-contato" required placeholder="Nome do Contato" />
+            <input type="tel" id="fone-contato" required placeholder="Telefone" />
             <button type="submit">Adicionar +</button>
         </form>
         <table cellspacing="0">
             <thead>
                 <tr>
-                    <th>Nome da Atividade</th>
-                    <th>Nota da Atividade</th>
-                    <th>Aprovado?</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td></td>
                     <td></td>
-                    <td></td>
                 </tr>
             </tbody>
-            <tfoot>
+            <!--<tfoot>
                 <tr>
                     <td>Média Final</td>
                     <td id="media-final-valor">---</td> 
                     <td id="media-final-resultado">---</td> 
                     
                 </tr>
-            </tfoot>
+            </tfoot>-->
         </table>
     </div>
     <script src="./main.js"></script>

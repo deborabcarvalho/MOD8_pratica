@@ -24,6 +24,7 @@ header img{
 header h1{
     font-size: 40px;
     font-weight: bold;
+    color: #025e90;
 }
 
 .container{
@@ -45,18 +46,24 @@ form input {
     background-color: #fff;
     border: none;
     border-bottom: 2px solid #000;
+    border-color: #025e90;
     padding: 8px;  
 }
 
+form ::placeholder {
+    font-size: 20px; 
+    color: #aeabab;
+}
+
 form button{
-    background-color: #009432;
+    background-color: #025e90;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     padding: 8px;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 table{
@@ -74,18 +81,10 @@ table td img{
     height: 30px;
 }
 
-.resultado{
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
+#nome-contato{
+    width: 250px;
 }
 
-.aprovado{
-    background-color: #009432;
-}
-
-.reprovado{
-    background-color: red;
+#fone-contato{
+    width: 200px;
 }
